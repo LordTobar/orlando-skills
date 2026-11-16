@@ -17,6 +17,7 @@ Los scripts leen `skills.json` local si existe; si no, lo descargan de `raw.gith
 
 ## Convenciones
 
+- `docs/mcp-y-recursos.md` lista MCP, plugins y enlaces; actualizarlo al cambiar los MCP/plugins que uso (ver `claude mcp list` y `~/.claude/plugins/installed_plugins.json`).
 - Al agregar una skill de terceros: entrada en `skills.json` + fila en la tabla del README. Al agregar una propia: carpeta en `skills/` + fila en la tabla "Skills propias" del README.
 - Las skills `spec`/`spec-impl` tienen el mismo nombre que las de Klerith: no instalar ambas a la vez (chocan). Si se divergen mucho, considerar renombrarlas.
 - `.gitattributes` fuerza LF en `*.sh` y `*.json` (CRLF rompe `install.sh` en Linux). Editar en Windows sin reintroducir CRLF.

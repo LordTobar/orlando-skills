@@ -42,3 +42,7 @@ Original de Klerith (referencia): `npx skills@latest add Klerith/fernando-skills
 
 1. Tercero: añadir entrada a `skills.json` y a la tabla.
 2. Propia: crear `skills/<nombre>/SKILL.md` con frontmatter `name` y `description`.
+
+## MCP, plugins y enlaces
+
+Ver [`docs/mcp-y-recursos.md`](docs/mcp-y-recursos.md): MCP que uso y cómo instalarlos, plugins, y páginas clave (skills.sh, docs del CLI, etc.).
