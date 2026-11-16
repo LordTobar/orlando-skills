@@ -17,7 +17,6 @@ curl -fsSL https://raw.githubusercontent.com/LordTobar/orlando-skills/main/insta
 
 | Skill | Autor | Comando |
 |---|---|---|
-| spec, spec-impl | Klerith | `npx skills@latest add Klerith/fernando-skills` |
 | caveman | juliusbrussee | `npx skills@latest add juliusbrussee/caveman` |
 | find-skills | vercel-labs | `npx skills@latest add vercel-labs/skills --skill find-skills` |
 | frontend-design | anthropics | `npx skills@latest add anthropics/skills --skill frontend-design` |
@@ -26,10 +25,18 @@ La lista maestra está en [`skills.json`](skills.json).
 
 ## Skills propias
 
-Van en `skills/<nombre>/SKILL.md`. Cuando haya al menos una:
+Van en `skills/<nombre>/SKILL.md`.
+
+| Skill | Descripción |
+|---|---|
+| `spec` | Diseña specs con preguntas guiadas (clon de Klerith/fernando-skills, MIT; ver `skills/NOTICE.md`) |
+| `spec-impl` | Implementa una spec aprobada paso a paso en su propia rama (ídem) |
+
+Instalar solo estas:
 ```
 npx skills@latest add LordTobar/orlando-skills
 ```
+Original de Klerith (referencia): `npx skills@latest add Klerith/fernando-skills`. No instalar ambos: los nombres chocan.
 
 ## Agregar una skill
 
